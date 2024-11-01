@@ -47,6 +47,17 @@ pip install -r requirements.txt --no-deps
 ```
 Trouble Shoot: If you have difficulty installing packages from messenger-emma for pygame, comment the requirement for pygame version in messenger-emma/setup.py.
 
+### MetaWorld
+Create conda env.
+```
+conda create -n messenger python=3.85
+conda activate messenger
+```
+```
+cd <path/to/metaworld>
+pip install -r requirements.txt --no-deps
+```
+
 ## :wrench: Model Training & Eval
 For training and evaluation, please refer to the README in each folder.
 - [HomeGrid](homegrid/README.md)
